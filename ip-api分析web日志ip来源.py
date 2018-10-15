@@ -31,7 +31,7 @@ for key,value in ips.items():
 
 def get_ip_area(ip):
     try:
-        apiurl = "http://ip-api.com/json/%s?lang=zh-CN" %ip#google ip api
+        apiurl = "http://ip-api.com/json/%s?lang=zh-CN" %ip# ip-api
         content = urllib2.urlopen(apiurl).read()
         data = json.loads(content) #数据转化
         if data['country']: # success
