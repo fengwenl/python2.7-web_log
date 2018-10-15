@@ -8,7 +8,7 @@ import MySQLdb as mysql
 import datetime
 import sys, os, urllib2, json
 
-db = mysql.connect(user="root",passwd="root",db="intest",host="127.0.0.1") #数据库连接信息
+db = mysql.connect(user="root",passwd="xxxx",db="xxxx",host="127.0.0.1") #数据库连接信息
 db.autocommit(True)
 cur = db.cursor()
 cur.execute('set names utf8')
