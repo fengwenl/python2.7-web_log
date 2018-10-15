@@ -2,8 +2,8 @@
 #_*_coding:utf-8 _*_
 __author__ = 'gaogd'
 
-import pymysql
-pymysql.install_as_MySQLdb()
+import pymysql              #window 连接数据库 linux 的可删除
+pymysql.install_as_MySQLdb() #window 连接数据库 linux 的可删除
 import MySQLdb as mysql
 import datetime
 import sys, os, urllib2, json
