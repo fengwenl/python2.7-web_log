@@ -15,4 +15,5 @@ create table whereip(id int primary key auto_increment,country varchar(100),area
 
 #### 查询点击排名<br>
 select country,area,region,city,ip,count(ip) as 点击数排名 from whereip group by ip order by 点击数排名 desc <br>
-
+<br>
+ ![image](https://github.com/fengwenl/python2.7-web_log/blob/master/img1.png)<br>
