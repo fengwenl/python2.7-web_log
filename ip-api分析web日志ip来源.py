@@ -16,7 +16,7 @@ addtime = datetime.datetime.now()
 
 ips = {}        #ip作为字典的key，访问次数做value
 iplist = []     #遍历日志中的ip，相同的ip也会记录到列表，插入数据库
-fh = open("20181006-2018-10-13.log", "r").readlines()                                                               #我的是把日志和代码在一个目录下面
+fh = open("20181006-2018-10-13.log", "r").readlines()            #我的是把日志和代码在一个目录下面
 for line in fh:
     ip = line.split(" ")[0]
     print ip
